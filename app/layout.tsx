@@ -9,9 +9,8 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Frontend Developer Portfolio",
-  description: "Professional portfolio showcasing frontend development skills and projects",
-  
+  title: "Ugwuja Livinus Ekene | Frontend Developer Portfolio",
+  description: "I'm a passionate frontend developer with over three years of experience creating responsive, accessible, and user-friendly web applications using HTML, CSS, JavaScript, React, and Tailwind CSS. Explore my projects and skills in UI/UX, performance optimization, and cross-device design.",
 }
 
 export default function RootLayout({

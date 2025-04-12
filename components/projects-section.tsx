@@ -54,7 +54,7 @@ const projects = [
     liveUrl: "https://wedding-seating-app.vercel.app/",
     githubUrl: "https://github.com/yourusername/weather-app",
     category: "web",
-    role: "Developer",
+    role: "Frontend Developer",
     contribution: "Designed and developed the entire application, integrated with the OpenWeather API.",
   },
 ]
