@@ -19,7 +19,7 @@ const testimonials = [
   {
     id: 2,
     name: "Akodi Peterson",
-    role: "Project Manager",
+    role: "Chief Product Officer, SpaceBox.",
     company: "ISONG Technologies",
     avatar: "/AkodiPeterson.jpg?height=100&width=100",
     content:

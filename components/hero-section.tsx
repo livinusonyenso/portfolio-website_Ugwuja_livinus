@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { motion } from "framer-motion"
 import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react"
+import Image from "next/image"
 
 export default function HeroSection() {
   const scrollToContact = () => {
@@ -75,8 +76,10 @@ export default function HeroSection() {
           >
             <div className="relative w-full aspect-square rounded-full bg-gradient-to-br from-primary/20 to-primary/5 p-8">
               <div className="absolute inset-0 rounded-full border border-primary/20 animate-pulse"></div>
-              <img
-                src="/ugwuja.png?height=500&width=500"
+              <Image
+                src="/ugwujalivinnus.jpg"
+                height={500}
+                width={500}
                 alt="Developer Portrait"
                 className="w-full h-full object-cover rounded-full"
               />
