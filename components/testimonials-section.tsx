@@ -19,8 +19,8 @@ const testimonials = [
   {
     id: 2,
     name: "Akodi Peterson",
-    role: "Chief Product Officer, SpaceBox.",
-    company: "ISONG Technologies",
+    role: "Chief Product Officer, ",
+    company: "SpaceBox.",
     avatar: "/AkodiPeterson.jpg?height=100&width=100",
     content:
       "A talented developer with a great eye for design. He quickly grasp complex requirements and implement them efficiently.",
