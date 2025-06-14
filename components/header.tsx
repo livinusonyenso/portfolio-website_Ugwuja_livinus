@@ -140,7 +140,7 @@ export default function Header() {
                 ))}
                 <li>
                   <Button size="sm" asChild className="w-full">
-                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/UGWUJA_LIVINUS_EKENE_CV.pdf" target="_blank" rel="noopener noreferrer">
                       Resume
                     </a>
                   </Button>
