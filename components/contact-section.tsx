@@ -138,7 +138,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
-                  <p className="text-muted-foreground">Calabar, Nigeria</p>
+                  <p className="text-muted-foreground">Enugu State, Nigeria</p>
                 </div>
               </div>
             </div>
