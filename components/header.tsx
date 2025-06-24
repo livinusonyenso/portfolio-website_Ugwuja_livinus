@@ -88,7 +88,7 @@ export default function Header() {
               transition={{ duration: 0.5, delay: 0.7 }}
             >
               <Button size="sm" asChild>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/UGWUJA_LIVINUS_EKENE_CV.pdf" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>
