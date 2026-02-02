@@ -10,6 +10,8 @@ const skillCategories = [
     name: "Frontend",
     skills: [
       { name: "React", level: 90 },
+      { name: "React-Native", level: 75},
+      { name: "Nodejs", level: 50},
       { name: "Next.js", level: 85 },
       { name: "TypeScript", level: 80 },
       { name: "JavaScript", level: 90 },
@@ -36,11 +38,12 @@ const skillCategories = [
     name: "Backend",
     skills: [
       { name: "Node.js", level: 75 },
+      { name: "NestJS", level: 65 },
       { name: "Express", level: 70 },
       { name: "RESTful APIs", level: 80 },
       { name: "Firebase", level: 75 },
       { name: "MongoDB", level: 65 },
-      { name: "SQL", level: 60 },
+      { name: "MySQL", level: 65 },
       { name: "GraphQL", level: 60 },
       { name: "Serverless", level: 65 },
     ],

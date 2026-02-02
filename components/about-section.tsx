@@ -38,9 +38,9 @@ export default function AboutSection() {
               Frontend Developer with a passion for creating exceptional user experiences
             </h3>
             <p className="text-muted-foreground mb-6">
-              I am a passionate frontend developer with over 3+ years of hands-on experience building responsive, scalable,
-              and accessible web applications. I specialize in JavaScript, React, Next.js, TypeScript, Tailwind CSS, and core web
-              technologies.
+              I am a passionate frontend developer with 3+ years of hands-on experience building responsive, scalable,
+              and accessible web applications. I specialize in JavaScript, React,React-Native, Next.js, TypeScript, Tailwind CSS, Node.js, NestJS, MySQL,
+              and core web technologies.
             </p>
             <p className="text-muted-foreground mb-6">
               My journey in web development started with a curiosity about how websites work, which quickly evolved into
