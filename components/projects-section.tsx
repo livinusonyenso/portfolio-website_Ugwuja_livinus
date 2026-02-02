@@ -11,53 +11,91 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 const projects = [
   {
     id: 1,
-    title: "Kazfieldisl.com",
-    description: "Optimized frontend architecture, reducing UI issues by 30% and improving page load speed by 20%.",
-    image: "/Kazfield-real-estate.png?height=400&width=600",
+    title: "Droid Technologies HQ",
+    description:
+      "Optimized frontend architecture, reducing UI issues by 30% and improving page load speed by 20%.",
+    image: "/D-roid-Technologies-Ltd-Custom-Software-AI-and-Digital-Innovation.png",
+    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    liveUrl: "https://droidtechhq.com/",
+    githubUrl: "https://github.com/yourusername/droidtechhq",
+    category: "featured",
+    role: "Lead Frontend Developer",
+    contribution:
+      "Redesigned the UI/UX, implemented responsive layouts, and optimized performance.",
+  },
+  {
+    id: 2,
+    title: "Adaba Coconut Farm Resort",
+    description:
+      "Improved site performance and responsiveness, delivering a smooth booking and browsing experience.",
+    image: "/Àdàbà-Coconut-Farm-Resort.png",
+    tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    liveUrl: "https://adabafarmresort.com/",
+    githubUrl: "https://github.com/yourusername/adaba-farm-resort",
+    category: "featured",
+    role: "Lead Frontend Developer",
+    contribution:
+      "Redesigned the interface, enhanced mobile responsiveness, and optimized loading speed.",
+  },
+  {
+    id: 3,
+    title: "Kazfield International Services Ltd",
+    description:
+      "Built a modern real estate website with optimized UI and improved user navigation.",
+    image: "/Kazfield-real-estate.png",
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
     liveUrl: "https://kazfieldisl.com/",
     githubUrl: "https://github.com/yourusername/kazfieldisl",
     category: "featured",
     role: "Lead Frontend Developer",
-    contribution: "Redesigned the UI/UX, implemented responsive design, and optimized performance.",
-  },
-  {
-    id: 2,
-    title: "SkillLift-com",
-    description: "Improved accessibility and responsive design, leading to a 15% increase in mobile retention.",
-    image: "/skillLift-com.png?height=400&width=600",
-    tags: ["React", "Redux", "SCSS", "JavaScript"],
-    liveUrl: "https://skillliftcom.vercel.app/",
-    githubUrl: "https://github.com/yourusername/auspisprime",
-    category: "featured",
-    role: "Frontend Developer",
-    contribution: "Enhanced accessibility, implemented responsive design, and integrated with backend APIs.",
-  },
-  {
-    id: 3,
-    title: "nanxtyles.com",
-    description: "Developed a comprehensive shopping store for seamless management—featuring real-time  inventory tracking, and sales insights  and enhance decision-making.",
-    image: "/nanxtyles-clothing-shop.png?height=400&width=600",
-    tags: ["React", "Chart.js", "Material UI", "Firebase"],
-    liveUrl: "https://nanxtyles.com/",
-    githubUrl: "https://github.com/yourusername/ecommerce-dashboard",
-    category: "web",
-    role: "Frontend Developer",
-    contribution: "Built the dashboard UI, implemented charts and analytics features.",
+    contribution:
+      "Led UI redesign, implemented responsive components, and improved performance.",
   },
   {
     id: 4,
-    title: "wedding-seating-app",
-    description: "Designed and built a user-friendly wedding seating app that simplifies guest arrangement and event planning.",
-    image: "/wedding-Seating-App.png?height=400&width=600",
-    tags: ["React", "OpenWeather API", "CSS", "JavaScript"],
-    liveUrl: "https://wedding-seating-app.vercel.app/",
-    githubUrl: "https://github.com/yourusername/weather-app",
+    title: "SkillLift",
+    description:
+      "Improved accessibility and responsive design, leading to a 15% increase in mobile user retention.",
+    image: "/skillLift-com.png",
+    tags: ["React", "Redux", "SCSS", "JavaScript"],
+    liveUrl: "https://skillliftcom.vercel.app/",
+    githubUrl: "https://github.com/yourusername/skilllift",
+    category: "featured",
+    role: "Frontend Developer",
+    contribution:
+      "Enhanced accessibility, built responsive layouts, and integrated backend APIs.",
+  },
+  {
+    id: 5,
+    title: "Nanxtyles E-commerce Store",
+    description:
+      "Developed a full-featured shopping store with real-time inventory tracking and sales insights.",
+    image: "/nanxtyles-clothing-shop.png",
+    tags: ["React", "Firebase", "Material UI", "Chart.js"],
+    liveUrl: "https://nanxtyles.com/",
+    githubUrl: "https://github.com/yourusername/nanxtyles-store",
     category: "web",
     role: "Frontend Developer",
-    contribution: "Designed and developed the entire application, integrated with the OpenWeather API.",
+    contribution:
+      "Built the dashboard UI, implemented analytics charts, and integrated Firebase services.",
   },
-]
+  {
+    id: 6,
+    title: "Wedding Seating App",
+    description:
+      "Designed and built a user-friendly wedding seating application to simplify guest arrangement and event planning.",
+    image: "/wedding-Seating-App.png",
+    tags: ["React", "JavaScript", "CSS"],
+    liveUrl: "https://wedding-seating-app.vercel.app/",
+    githubUrl: "https://github.com/yourusername/wedding-seating-app",
+    category: "web",
+    role: "Frontend Developer",
+    contribution:
+      "Designed and developed the entire application with a focus on usability and simplicity.",
+  },
+];
+
+type Project = (typeof projects)[number];
 
 export default function ProjectsSection() {
   const [activeTab, setActiveTab] = useState("all")
@@ -109,7 +147,7 @@ export default function ProjectsSection() {
   )
 }
 
-function ProjectGrid({ projects }: { projects: typeof projects }) {
+function ProjectGrid({ projects }: { projects: Project[] }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {projects.map((project, index) => (
@@ -119,7 +157,7 @@ function ProjectGrid({ projects }: { projects: typeof projects }) {
   )
 }
 
-function ProjectCard({ project, index }: { project: (typeof projects)[0]; index: number }) {
+function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
