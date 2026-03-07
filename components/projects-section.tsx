@@ -13,7 +13,7 @@ const projects = [
     id: 1,
     title: "Droid Technologies HQ",
     description:
-      "Optimized frontend architecture, reducing UI issues by 30% and improving page load speed by 20%.",
+      "Rebuilt the frontend architecture from scratch,cut UI bugs by 30% and improved page load speed by 20%. The site now performs like the tech company it represents.",
     image: "/D-roid-Technologies-Ltd-Custom-Software-AI-and-Digital-Innovation.png",
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
     liveUrl: "https://droidtechhq.com/",
@@ -21,13 +21,13 @@ const projects = [
     category: "featured",
     role: "Lead Frontend Developer",
     contribution:
-      "Redesigned the UI/UX, implemented responsive layouts, and optimized performance.",
+      "Owned the full frontend overhaul: restructured component architecture, enforced responsive layouts across all breakpoints, and optimized asset delivery for measurable speed gains.",
   },
   {
     id: 2,
     title: "Adaba Coconut Farm Resort",
     description:
-      "Improved site performance and responsiveness, delivering a smooth booking and browsing experience.",
+      "Turned a slow, broken-on-mobile resort site into a fast, polished experience that converts visitors into bookings.",
     image: "/Àdàbà-Coconut-Farm-Resort.png",
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
     liveUrl: "https://adabafarmresort.com/",
@@ -35,13 +35,13 @@ const projects = [
     category: "featured",
     role: "Lead Frontend Developer",
     contribution:
-      "Redesigned the interface, enhanced mobile responsiveness, and optimized loading speed.",
+      "Rebuilt the UI from the ground up, fixed mobile responsiveness across all device sizes, and reduced load time,making the browsing and booking flow smooth and friction-free.",
   },
   {
   id: 112,
   title: "Ontime Maritime",
   description:
-    "A digital logistics platform modernizing global cargo shipping. Founded in 2020, Ontime Maritime supports 5,000+ companies across 150+ countries, processing millions of containers annually.",
+    "Frontend for a global logistics platform serving 5,000+ companies across 150+ countries. Built to handle enterprise-scale traffic without cracking under pressure.",
   image: "/ontime-maritime.png",
   tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
   liveUrl: "https://ontimemaritime.com/",
@@ -49,13 +49,13 @@ const projects = [
   category: "featured",
   role: "Lead Frontend Developer",
   contribution:
-    "Built and optimized the frontend for a maritime logistics platform serving global supply chains — improving responsiveness, performance, and user experience across 150+ countries.",
+    "Architected a performant, scalable frontend for a high-traffic maritime logistics platform,optimized for cross-device reliability and built to hold up at global scale.",
 },
  {
   id: 222,
   title: "Codedlng",
   description:
-    "A structured business systemization platform offering the 90-Day Freedom System™ — helping entrepreneurs turn chaotic operations into self-running businesses using workflows, SOPs, dashboards, and automation.",
+    "Built the web presence for a premium business coaching platform selling the 90-Day Freedom System™,clean, fast, and designed to convert serious entrepreneurs.",
   image: "/codedlng.png",
   tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
   liveUrl: "https://codedlng.com/",
@@ -63,14 +63,14 @@ const projects = [
   category: "featured",
   role: "Lead Frontend Developer",
   contribution:
-    "Built and optimized the frontend for a business coaching platform, delivering a clean, responsive experience that clearly communicates the 90-Day Freedom System™ program to its audience.",
+    "Designed and built a high-converting frontend that clearly communicates a premium offer,fast load times, sharp UI, and a user flow built to reduce drop-off and drive sign-ups.",
 },
   
   {
     id: 3,
     title: "Kazfield International Services Ltd",
     description:
-      "Built a modern real estate website with optimized UI and improved user navigation.",
+      "Modernized a real estate company's digital presence,clean UI, clear navigation, and a layout built to move property seekers toward action.",
     image: "/Kazfield-real-estate.png",
     tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
     liveUrl: "https://kazfieldisl.com/",
@@ -78,13 +78,13 @@ const projects = [
     category: "featured",
     role: "Lead Frontend Developer",
     contribution:
-      "Led UI redesign, implemented responsive components, and improved performance.",
+      "Led a complete UI redesign,replaced outdated layouts with component-driven architecture, improved information hierarchy, and cut friction in the property browsing experience.",
   },
   {
     id: 7,
     title: "DroidOne Mobile App",
     description:
-      "A mobile application developed and published on the Google Play Store, delivering a seamless and intuitive user experience.",
+      "Designed, built, and shipped a mobile app end-to-end,live on the Google Play Store. Proof that I can own the full mobile development lifecycle, not just the UI layer.",
     image: "/D'roid.png",
     tags: ["React Native", "Android", "Mobile", "JavaScript"],
     liveUrl: "https://play.google.com/store/apps/details?id=com.devekene.DroidOne",
@@ -92,13 +92,13 @@ const projects = [
     category: "mobile",
     role: "Mobile Developer",
     contribution:
-      "Designed and developed the full mobile application, from UI design to deployment on the Google Play Store.",
+      "Owned everything: UI/UX design, React Native development, testing across Android devices, and Play Store deployment. Zero handoffs,shipped it myself.",
   },
   {
     id: 4,
     title: "SkillLift",
     description:
-      "Improved accessibility and responsive design, leading to a 15% increase in mobile user retention.",
+      "Fixed broken mobile UX and accessibility gaps,drove a 15% increase in mobile user retention. Small fixes, real numbers.",
     image: "/skillLift-com.png",
     tags: ["React", "Redux", "SCSS", "JavaScript"],
     liveUrl: "https://skillliftcom.vercel.app/",
@@ -106,13 +106,13 @@ const projects = [
     category: "featured",
     role: "Frontend Developer",
     contribution:
-      "Enhanced accessibility, built responsive layouts, and integrated backend APIs.",
+      "Audited and rebuilt responsive layouts, closed accessibility gaps that were costing users, and integrated backend APIs to complete the feature loop,measurable retention improvement as the result.",
   },
   {
     id: 5,
     title: "Nanxtyles E-commerce Store",
     description:
-      "Developed a full-featured shopping store with real-time inventory tracking and sales insights.",
+      "Full-featured e-commerce store with real-time inventory and live sales analytics,so the owner always knows what's selling and what isn't.",
     image: "/nanxtyles-clothing-shop.png",
     tags: ["React", "Firebase", "Material UI", "Chart.js"],
     liveUrl: "https://nanxtyles.com/",
@@ -120,13 +120,13 @@ const projects = [
     category: "web",
     role: "Frontend Developer",
     contribution:
-      "Built the dashboard UI, implemented analytics charts, and integrated Firebase services.",
+      "Built the full dashboard UI, wired up Chart.js analytics for live sales visibility, and integrated Firebase for real-time inventory updates,giving the business owner actionable data at a glance.",
   },
   {
     id: 6,
     title: "Wedding Seating App",
     description:
-      "Designed and built a user-friendly wedding seating application to simplify guest arrangement and event planning.",
+      "A clean, focused tool for wedding planners to manage guest seating without the spreadsheet chaos,built solo from design to deployment.",
     image: "/wedding-Seating-App.png",
     tags: ["React", "JavaScript", "CSS"],
     liveUrl: "https://wedding-seating-app.vercel.app/",
@@ -134,7 +134,7 @@ const projects = [
     category: "web",
     role: "Frontend Developer",
     contribution:
-      "Designed and developed the entire application with a focus on usability and simplicity.",
+      "Designed and built the entire application solo,prioritized simplicity and usability so non-technical users could pick it up instantly with zero training.",
   },
   
 ];
