@@ -38,6 +38,35 @@ const projects = [
       "Redesigned the interface, enhanced mobile responsiveness, and optimized loading speed.",
   },
   {
+  id: 112,
+  title: "Ontime Maritime",
+  description:
+    "A digital logistics platform modernizing global cargo shipping. Founded in 2020, Ontime Maritime supports 5,000+ companies across 150+ countries, processing millions of containers annually.",
+  image: "/ontime-maritime.png",
+  tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+  liveUrl: "https://ontimemaritime.com/",
+  githubUrl: "https://github.com/yourusername/ontime-maritime",
+  category: "featured",
+  role: "Lead Frontend Developer",
+  contribution:
+    "Built and optimized the frontend for a maritime logistics platform serving global supply chains — improving responsiveness, performance, and user experience across 150+ countries.",
+},
+ {
+  id: 222,
+  title: "Codedlng",
+  description:
+    "A structured business systemization platform offering the 90-Day Freedom System™ — helping entrepreneurs turn chaotic operations into self-running businesses using workflows, SOPs, dashboards, and automation.",
+  image: "/codedlng.png",
+  tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+  liveUrl: "https://codedlng.com/",
+  githubUrl: "https://github.com/yourusername/codedlng",
+  category: "featured",
+  role: "Lead Frontend Developer",
+  contribution:
+    "Built and optimized the frontend for a business coaching platform, delivering a clean, responsive experience that clearly communicates the 90-Day Freedom System™ program to its audience.",
+},
+  
+  {
     id: 3,
     title: "Kazfield International Services Ltd",
     description:
@@ -50,6 +79,20 @@ const projects = [
     role: "Lead Frontend Developer",
     contribution:
       "Led UI redesign, implemented responsive components, and improved performance.",
+  },
+  {
+    id: 7,
+    title: "DroidOne Mobile App",
+    description:
+      "A mobile application developed and published on the Google Play Store, delivering a seamless and intuitive user experience.",
+    image: "/D'roid.png",
+    tags: ["React Native", "Android", "Mobile", "JavaScript"],
+    liveUrl: "https://play.google.com/store/apps/details?id=com.devekene.DroidOne",
+    githubUrl: "https://github.com/yourusername/droidone",
+    category: "mobile",
+    role: "Mobile Developer",
+    contribution:
+      "Designed and developed the full mobile application, from UI design to deployment on the Google Play Store.",
   },
   {
     id: 4,
@@ -93,6 +136,7 @@ const projects = [
     contribution:
       "Designed and developed the entire application with a focus on usability and simplicity.",
   },
+  
 ];
 
 type Project = (typeof projects)[number];
@@ -128,6 +172,7 @@ export default function ProjectsSection() {
                 <TabsTrigger value="all">All Projects</TabsTrigger>
                 <TabsTrigger value="featured">Featured</TabsTrigger>
                 <TabsTrigger value="web">Web Apps</TabsTrigger>
+                <TabsTrigger value="mobile">Mobile Apps</TabsTrigger>
               </TabsList>
             </div>
 
@@ -138,6 +183,9 @@ export default function ProjectsSection() {
               <ProjectGrid projects={filteredProjects} />
             </TabsContent>
             <TabsContent value="web" className="mt-0">
+              <ProjectGrid projects={filteredProjects} />
+            </TabsContent>
+            <TabsContent value="mobile" className="mt-0">
               <ProjectGrid projects={filteredProjects} />
             </TabsContent>
           </Tabs>
@@ -204,7 +252,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           <Button size="sm" asChild>
             <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="flex items-center">
               <ExternalLink className="mr-2 h-4 w-4" />
-              Live Demo
+              {project.category === "mobile" ? "Play Store" : "Live Demo"}
             </a>
           </Button>
         </CardFooter>
