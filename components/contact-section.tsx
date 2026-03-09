@@ -111,7 +111,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-medium">Email</h4>
                   <p className="text-muted-foreground">
-                    <a href="mailto:hello@yourportfolio.com" className="hover:text-primary transition-colors">
+                    <a href="mailto: ugwujalivinusekene@gmail.com" className="hover:text-primary transition-colors">
                     ugwujalivinusekene@gmail.com
                     </a>
                   </p>
